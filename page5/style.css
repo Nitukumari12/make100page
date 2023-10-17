@@ -17,7 +17,7 @@ ul{
     list-style: none;
     margin-top: 30px;
     min-height: 400px;
-    margin-right: 60px;
+    margin-right: 20px;
     font-size: 20px;
 }
 ul li{
@@ -38,6 +38,46 @@ ul li a:hover{
     color: #000;
 }
 ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 100px;
+}
+.button{
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.btn{
+   border: 1px solid #fff;
+   padding: 5px 20px;
+   color: #fff;
+   transition: 0.5s ease;
+   font-size: 18px;
+   text-decoration: none; 
+}
+.btn:hover{
     background-color: #fff;
     color: #000;
 }
