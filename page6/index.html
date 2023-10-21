@@ -1,204 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>page6</title>
     <link rel="stylesheet" href="style.css" />
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
 
     <style>
+      header {
+        background-image: url(img/main.jpg);
+        background-position: center;
+        background-size: cover;
+        min-height: 1000px;
+      }
+      .section {
+        padding-bottom: 4vw;
+        padding-top: 4vw;
+      }
+
+      .tabs .indicator {
+        background-color: #000;
+      }
+
+      .tabs .tab a:hover,
+      .tabs .tab a:focus.active {
+        background-color: transparent;
+      }
+
+      @media screen and (max-width: 650px) {
         header {
-            background-image: url(img/main.jpg);
-            background-position: center;
-            background-size: cover;
-            min-height: 1000px;
+          min-height: 500px;
         }
-        .section{
-            padding-bottom: 4vw;
-            padding-top: 4vw;
-        }
-
-        .tabs .indicator {
-            background-color: #000;
-        }
-
-        .tabs .tab a:hover,
-        .tabs .tab a:focus.active {
-            background-color: transparent;
-        }
-
-        @media screen and (max-width:650px) {
-            header {
-                min-height: 500px;
-            }
-        }
+      }
     </style>
+  </head>
 
-
-</head>
-
-<body>
+  <body>
     <!-- header -->
     <header>
-        <nav class="nav-wrapper transparent">
-            <div class="container">
-                <a href="#" class="brand-logo">o_O LOVE</a>
-                <a href="#" class="sidenav-trigger" data-target="moblie"><i class="ri-menu-fill"></i></a>
+      <nav class="nav-wrapper transparent">
+        <div class="container">
+          <a href="#" class="brand-logo">o_O LOVE</a>
+          <a href="#" class="sidenav-trigger" data-target="moblie"
+            ><i class="ri-menu-fill"></i
+          ></a>
 
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">COLLECTION</a></li>
-                    <li><a href="#">SHOPS</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
-                <ul class="sidenav gray darken-4 center" id="moblie">
-                    <h3 class="black-text center">o_O LOVE</h3>
-                    <li>
-                        <a href="#" class="waves-effects waves-light black-text">HOME</a>
-                    </li>
-                    <li>
-                        <a href="#" class="waves-effects waves-light black-text">COLLECTION</a>
-                    </li>
-                    <li>
-                        <a href="#" class="waves-effects waves-light black-text">SHOPS</a>
-                    </li>
-                    <li>
-                        <a href="#" class="waves-effects waves-light black-text">CONTACT</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">COLLECTION</a></li>
+            <li><a href="#">SHOPS</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+          <ul class="sidenav gray darken-4 center" id="moblie">
+            <h3 class="black-text center">o_O LOVE</h3>
+            <li>
+              <a href="#" class="waves-effects waves-light black-text">HOME</a>
+            </li>
+            <li>
+              <a href="#" class="waves-effects waves-light black-text"
+                >COLLECTION</a
+              >
+            </li>
+            <li>
+              <a href="#" class="waves-effects waves-light black-text">SHOPS</a>
+            </li>
+            <li>
+              <a href="#" class="waves-effects waves-light black-text"
+                >CONTACT</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <section class="container section">
-        <div class="row">
-            <div class="col s6 16">
-                <img src="img/leather.jpg" class="responsive-img materialboxed" />
-            </div>
-            <div class="col s6 16">
-                <h2 class="black-text">LEATHER</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-                    adipisci et quod eum doloremque deleniti voluptate assumenda labore
-                    a numquam!
-                </p>
-            </div>
+      <div class="row">
+        <div class="col s6 16">
+          <img src="img/leather.jpg" class="responsive-img materialboxed" />
         </div>
-        <div class="row">
-            <div class="col s6 16">
-                <img src="img/jeans.jpg" class="responsive-img materialboxed" />
-            </div>
-            <div class="col s6 16">
-                <h2 class="black-text">LEVI'S jeans</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-                    adipisci et quod eum doloremque deleniti voluptate assumenda labore
-                    a numquam!
-                </p>
-            </div>
+        <div class="col s6 16">
+          <h2 class="black-text">LEATHER</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+            adipisci et quod eum doloremque deleniti voluptate assumenda labore
+            a numquam!
+          </p>
         </div>
-        <div class="row">
-            <div class="col s6 16">
-                <img src="img/watch.jpg" class="responsive-img materialboxed" />
-            </div>
-            <div class="col s6 16">
-                <h2 class="black-text">watch</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-                    adipisci et quod eum doloremque deleniti voluptate assumenda labore
-                    a numquam!
-                </p>
-            </div>
+      </div>
+      <div class="row">
+        <div class="col s6 16">
+          <img src="img/jeans.jpg" class="responsive-img materialboxed" />
         </div>
+        <div class="col s6 16">
+          <h2 class="black-text">LEVI'S jeans</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+            adipisci et quod eum doloremque deleniti voluptate assumenda labore
+            a numquam!
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s6 16">
+          <img src="img/watch.jpg" class="responsive-img materialboxed" />
+        </div>
+        <div class="col s6 16">
+          <h2 class="black-text">watch</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+            adipisci et quod eum doloremque deleniti voluptate assumenda labore
+            a numquam!
+          </p>
+        </div>
+      </div>
     </section>
     <div class="parallax-container">
-        <div class="parallax">
-            <img src="img/p1.jpg" class="responsive-img" />
-        </div>
+      <div class="parallax">
+        <img src="img/p1.jpg" class="responsive-img" />
+      </div>
     </div>
 
     <section class="container section">
-        <div class="row">
-            <div class="col s12 l5">
-                <h4 class="black-text">New Trend Info....</h4><br>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-                    nesciunt ex aperiam itaque animi consectetur est cumque quis.
-                </p><br>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In quaerat
-                    eligendi consequuntur animi dolorum deleniti fugit repud
-                </p>
-            </div>
-
-            <div class="col s12 l6 offset-l1">
-                <ul class="tabs">
-                    <li class="tab col s6">
-                        <a href="#dg" class="black-text">DESIGN DETAILS</a>
-                    </li>
-                    <li class="tab col s6">
-                        <a href="#fs" class="black-text">FASHION DETAILS</a>
-                    </li>
-                </ul>
-                <div class="col s12" id="dg">
-                    <p class="flow-text black-text">NEW DESIGN</p><br>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-                        nesciunt ex aperiam itaque animi consectetur est cumque quis.
-                    </p><br>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. In
-                        quaerat eligendi consequuntur animi dolorum deleniti fugit repud
-                    </p>
-                </div>
-                <div class="col s12" id="fs">
-                    <p class="flow-text black-text">NEW FASHION</p><br>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-                        nesciunt ex aperiam itaque animi consectetur est cumque quis.
-                    </p><br>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. In
-                        quaerat eligendi consequuntur animi dolorum deleniti fugit repud
-                    </p>
-                </div>
-            </div>
+      <div class="row">
+        <div class="col s12 l5">
+          <h4 class="black-text">New Trend Info....</h4>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+            nesciunt ex aperiam itaque animi consectetur est cumque quis.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In quaerat
+            eligendi consequuntur animi dolorum deleniti fugit repud
+          </p>
         </div>
+
+        <div class="col s12 l6 offset-l1">
+          <ul class="tabs">
+            <li class="tab col s6">
+              <a href="#dg" class="black-text">DESIGN DETAILS</a>
+            </li>
+            <li class="tab col s6">
+              <a href="#fs" class="black-text">FASHION DETAILS</a>
+            </li>
+          </ul>
+          <div class="col s12" id="dg">
+            <p class="flow-text black-text">NEW DESIGN</p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+              nesciunt ex aperiam itaque animi consectetur est cumque quis.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+              quaerat eligendi consequuntur animi dolorum deleniti fugit repud
+            </p>
+          </div>
+          <div class="col s12" id="fs">
+            <p class="flow-text black-text">NEW FASHION</p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+              nesciunt ex aperiam itaque animi consectetur est cumque quis.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+              quaerat eligendi consequuntur animi dolorum deleniti fugit repud
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <div class="parallax-container">
-        <div class="parallax">
-            <img src="img/p2.jpg" class="responsive-img" />
-        </div>
+      <div class="parallax">
+        <img src="img/p2.jpg" class="responsive-img" />
+      </div>
     </div>
 
-
     <section class="container section">
-        <div class="row">
-            <div class="col s12 l5">
-                <h3 class="black-text">GET IN TOUCH</h3>
-            </div>
+      <div class="row">
+        <div class="col s12 l5">
+          <h3 class="black-text">GET IN TOUCH</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Necessitatibus, odio eius optio maxime commodi illum?
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            quasi ducimus totam dolore corporis quas!
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+            dolorem suscipit inventore id fugit eligendi.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
+            recusandae, temporibus exercitationem suscipit culpa nostrum!
+          </p>
         </div>
-
+        <div class="col s12 l5 offset-l2">
+          <form action="">
+            <div class="input-field">
+              <i class="ri-mail-fill"></i>
+              <input type="email" id="email" />
+              <label for="email">Email Here</label>
+            </div>
+            <div class="input-field">
+              <i class="ri-message-3-fill"></i>
+              <textarea
+                name=""
+                id="message"
+                class="materialize-textarea"
+              ></textarea>
+              <label for="message">Message Here</label>
+            </div>
+            <div class="input-field">
+              <i class="ri-calendar-event-line"></i>
+              <input type="text" id="date" class="datepicker" />
+              <label for="date">Choose your date</label>
+            </div>
+            <div class="input-field">
+              <p>Skills Required..</p>
+              <p>
+                <label>
+                  <input type="checkbox" />
+                  <span>Designing</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" />
+                  <span>Modeling</span>
+                </label>
+              </p>
+              <div class="input-field center">
+                <button class="btn black white-text">SUBMIT</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
     </section>
-    
+
+    <!-- footer -->
+    <footer class="page-footer black darken-4">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 l6">
+            <h5>About Us</h5>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              nesciunt voluptas ut. Et corrupti asperiores eius, modi tempora
+              quas aspernatur?
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+              nisi, qui accusantium iure quo dolores officiis quas, deleniti est
+              quis incidunt
+            </p>
+          </div>
+          <div class="col s12 l4 offset-l2">
+            <h5>CONNECT US</h5>
+            <ul>
+                <li><a href="#" class="white-text">FACEBOOK</a></li>
+                <li><a href="#" class="white-text">TWITTER</a></li>
+                <li><a href="#" class="white-text">INSTAGRAM</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="container center cyan-text"><h6>&copy;o_O LOVE</h6></div>
+      </div>
+    </footer>
+
+
 
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
-        $(document).ready(function () {
-            $(".sidenav").sidenav();
-            $(".materialboxed").materialbox();
-            $(".parallax").parallax();
-            $('.tabs').tabs();
-        });
+      $(document).ready(function () {
+        $(".sidenav").sidenav();
+        $(".materialboxed").materialbox();
+        $(".parallax").parallax();
+        $(".tabs").tabs();
+        $(".datepicker").datepicker();
+      });
     </script>
-</body>
-
+  </body>
 </html>
